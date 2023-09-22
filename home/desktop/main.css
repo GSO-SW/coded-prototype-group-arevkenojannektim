@@ -1,0 +1,71 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+h1, h2, h3, h4 {
+    line-height: 10px;
+    padding: 0px;
+}
+
+button {
+    border: none;
+    transition: border 1s;
+}
+
+button:hover {
+    border: 1px solid #2b282855;
+    border-radius: 5px;
+}
+
+.card {
+    width: 350px;
+    height: 150px;
+    border: 1px solid #2b2828;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.filtercard {
+    border: 1px solid #2b2828;
+    border-radius: 5px;
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+}
+
+.filtercard p {
+    display: inline-block;
+}
+
+/* Card colors */
+.red {
+    background-color: #B8545056;
+}
+
+.amber {
+    background-color: #D6B65656;
+}
+
+.green {
+    background-color: #82B36656;
+}
+
+/* ID-Selectors */
+#nav {
+    width: 100%;
+    height: 130px;
+    padding: 0px 10px;
+}
+
+#filter {
+    height: 60px;
+}
+
+#profile-picture {
+    float: right; /* TODO: Floats to the right already, but I can't get it centered vertically in the 'nav'-div */
+    width: 60px;
+}
