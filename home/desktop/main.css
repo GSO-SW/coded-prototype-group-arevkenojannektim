@@ -45,14 +45,16 @@ button {
     border-radius: 5px;
     display: inline;
     padding: 20px;
-    width: 120px;
     height: 60px;
     text-align: center;
     margin-right: 5px;
 }
 
-.filtercardfix p {
+.filtercardfix > p {
     display: inline-block;
+    font-size: 32pt;
+    line-height: 0px;
+    margin: 0px;
 }
 
 .filtercard:hover {
@@ -101,6 +103,7 @@ button {
 /* ID-Selectors */
 #headline {
     padding: 15px;
+    display: inline-block;
 }
 
 #nav {
@@ -117,6 +120,16 @@ button {
 #hopper {
     padding: 5px;
     height: 60px;
+}
+
+#profilebox {
+    margin: 30px;
+    display: inline-block;
+    float: right;
+}
+
+#profile {
+    transform: scale(2.5);
 }
 
 #card-holder {
