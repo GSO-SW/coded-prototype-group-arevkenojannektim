@@ -43,7 +43,7 @@ button:hover {
   width: 120px;
   height: 50px;
   /* border: 1px solid #2b2828; */
-  background: #9a929255;
+  background: #8b838355;
   border-radius: 5px;
   display: inline-block;
   text-align: center;
@@ -91,7 +91,7 @@ button:hover {
   background-color: #b8545056;
   position: absolute;
   left: 50px;
-  top: 530px;
+  top: 505px;
   border: 1px solid #b85450aa;
 }
 
@@ -99,7 +99,7 @@ button:hover {
   background-color: #d6b65656;
   position: absolute;
   left: 50px;
-  top: 330px;
+  top: 320px;
   border: 1px solid #d6b656aa;
 }
 
@@ -107,7 +107,7 @@ button:hover {
   background-color: #82b36656;
   position: absolute;
   left: 50px;
-  top: 130px;
+  top: 135px;
   border: 1px solid #82b366aa;
 }
 
