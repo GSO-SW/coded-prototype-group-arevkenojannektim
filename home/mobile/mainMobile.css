@@ -109,3 +109,8 @@ button:hover {
   top: 130px;
   border: 1px solid #82b366aa;
 }
+
+body,
+html {
+  margin-bottom: 100px;
+}
