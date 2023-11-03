@@ -1,0 +1,133 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+/* FLEX */
+.flex-2c {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+/* COLORS */
+.red {
+    background-color: #B8545056;
+}
+
+.amber {
+    background-color: #D6B65656;
+}
+
+.green {
+    background-color: #82B36656;
+}
+
+/* Classes */
+.userdata-keycol {
+    width: 140px;
+    
+}
+
+.box {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box h3 {
+    margin: 0px;
+}
+
+/* NEWS */
+#newstable tr {
+    text-align: center;
+}
+
+.news-subject {
+    text-align: left;
+    min-width: 400px;
+}
+
+.news-date {
+    min-width: 200px;
+}
+
+.news-week {
+    min-width: 50px;
+}
+
+.news-department {
+    min-width: 150px;
+}
+
+.contenttable, .contenttable td, .contenttable th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.contenttable td, .contenttable th {
+    padding: 4px;
+}
+
+.contenttable td {
+    text-align: center;
+}
+
+.contenttable-activity {
+    min-width: 1100px;
+}
+
+.contenttable-hours {
+    min-width: 100px;
+}
+
+.contenttable-department {
+    min-width: 200px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 1429px;
+}
+
+/* SPECIFICS */
+#userdata {
+    width: 30%;
+    line-height: 30px;
+    margin: 0px;
+}
+
+#userdata-table tr {
+    border: 1px dotted black;
+}
+
+#news {
+    width: 70%;
+    margin: 0px;
+}
+
+#main {
+    margin: 10px 0px 0px 0px;
+    min-height: 1200px;
+    width: 98.5%;
+}
+
+#sidestrip {
+    float: right;
+    height: 1386px;
+    width: 19%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#maincontent {
+    width: 80%;
+    display: inline-block;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit mode - KW05</title>
+    <link rel="stylesheet" href="editmode.css">
+</head>
+<body>
+    <div id="maincontent">
+
+        <div id="overhead" class="flex-2c">
+            <div id="userdata" class="box">
+                <h3>Max Mustermann</h3>
+                
+                <table id="userdata-table">
+                    <tr>
+                        <td class="userdata-keycol">Datum</td>
+                        <td><input type="date"> - <input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td class="userdata-keycol">Kalenderwoche</td>
+                        <td>KW02</td>
+                    </tr>
+                <tr>
+                    <td class="userdata-keycol">Abteilung</td>
+                    <td>Einkauf</td>
+                </tr>
+            </table>
+        </div>
+        <div id="news" class="box">
+            <h3>Neuigkeiten</h3>
+            <table id="newstable" cellspacing="0" cellpadding="3px">
+                <tr class="newsitem red">
+                    <td class="news-subject">Der Nachweis wurde abgelehnt.</td>
+                    <td class="news-date">15.01.23 - 21.01.23</td>
+                    <td class="news-week">KW03</td>
+                    <td class="news-department">Einkauf</td>
+                </tr>
+                <tr class="newsitem amber">
+                    <td class="news-subject">Der Nachweis wurde als Entwurf gespeichert.</td>
+                    <td class="news-date">22.01.23 - 29.01.23</td>
+                    <td class="news-week">KW04</td>
+                    <td class="news-department">Einkauf</td>
+                </tr>
+                <tr class="newsitem red">
+                    <td class="news-subject">Der Nachweis wurde abgelehnt.</td>
+                    <td class="news-date">06.02.23 - 12.02.23</td>
+                    <td class="news-week">KW06</td>
+                    <td class="news-department">Einkauf</td>
+                </tr>
+                <tr class="newsitem green">
+                    <td class="news-subject">Der Nachweis wurde genehmigt.</td>
+                    <td class="news-date">13.02.23 - 19.02.23</td>
+                    <td class="news-week">KW07</td>
+                    <td class="news-department">Einkauf</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+
+        <div id="main" class="box">
+            <h3>Main Content</h3>
+            <div class="card">
+                <h3>Montag</h3>
+                <div>
+                    <table class="contenttable">
+                        <tr>
+                            <th class="contenttable-activity">Aktivität</th>
+                            <th class="contenttable-hours">Stunden</th>
+                            <th class="contenttable-department">Abteilung</th>
+                        </tr>
+                        <tr>
+                            <td>Ich hab aufgeräumt</td>
+                            <td>2</td>
+                            <td>Einkauf</td>
+                        </tr>
+                        <tr>
+                            <td>Ich hab meinem Ausbilder Kaffee gebracht</td>
+                            <td>4</td>
+                            <td>Einkauf</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>Dienstag</h3>
+                <div>
+                    <table class="contenttable">
+                        <tr>
+                            <th class="contenttable-activity">Aktivität</th>
+                            <th class="contenttable-hours">Stunden</th>
+                            <th class="contenttable-department">Abteilung</th>
+                        </tr>
+                        <tr>
+                            <td>Ich hab abgeräumt</td>
+                            <td>3</td>
+                            <td>Einkauf</td>
+                        </tr>
+                        <tr>
+                            <td>Eis essen, ohne Ausbilder</td>
+                            <td>5</td>
+                            <td>Einkauf</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>Mittwoch</h3>
+                <div>
+                    <table class="contenttable">
+                        <tr>
+                            <th class="contenttable-activity">Aktivität</th>
+                            <th class="contenttable-hours">Stunden</th>
+                            <th class="contenttable-department">Abteilung</th>
+                        </tr>
+                        <tr>
+                            <td>Ich hab abgeräumt</td>
+                            <td>3</td>
+                            <td>Einkauf</td>
+                        </tr>
+                        <tr>
+                            <td>Eis essen, ohne Ausbilder</td>
+                            <td>5</td>
+                            <td>Einkauf</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Donnerstag</h3>
+                <div>
+                    <table class="contenttable">
+                        <tr>
+                            <th class="contenttable-activity">Aktivität</th>
+                            <th class="contenttable-hours">Stunden</th>
+                            <th class="contenttable-department">Abteilung</th>
+                        </tr>
+                        <tr>
+                            <td>Ich hab abgeräumt</td>
+                            <td>3</td>
+                            <td>Einkauf</td>
+                        </tr>
+                        <tr>
+                            <td>Eis essen, ohne Ausbilder</td>
+                            <td>5</td>
+                            <td>Einkauf</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Freitag</h3>
+                <div>
+                    <table class="contenttable">
+                        <tr>
+                            <th class="contenttable-activity">Aktivität</th>
+                            <th class="contenttable-hours">Stunden</th>
+                            <th class="contenttable-department">Abteilung</th>
+                        </tr>
+                        <tr>
+                            <td>Ich hab abgeräumt</td>
+                            <td>3</td>
+                            <td>Einkauf</td>
+                        </tr>
+                        <tr>
+                            <td>Eis essen, ohne Ausbilder</td>
+                            <td>5</td>
+                            <td>Einkauf</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sidestrip">
+
+    </div>
+</body>
+</html>
